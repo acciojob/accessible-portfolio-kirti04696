@@ -8,7 +8,37 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <h1 role="heading">Welcome to My Accessible Portfolio</h1>
+
+    <!-- Navigation bar with ARIA role -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image with ARIA role and alt text -->
+    <img src="https://wallpapers.com/images/high/anime-pfp-pictures-dnj4xa3w5jklxt3f.webp" alt="Portrait of the developer" role="img">
+
+    <!-- Description -->
+    <section id="about">
+        <p>Hi! I'm a web developer passionate about creating accessible and user-friendly websites. I specialize in HTML, CSS, JavaScript, React, Java, SpringBoot and strive to build digital experiences for everyone.</p>
+    </section>
+
+    <!-- List of skills with ARIA roles -->
+    <section id="projects">
+        <h2>My Top Skills</h2>
+        <ul role="list">
+            <li role="listitem">Responsive Web Design</li>
+            <li role="listitem">JavaScript Development</li>
+			<li role="listitem">Java Development</li>
+            <li role="listitem">Accessibility Best Practices</li>
+        </ul>
+    </section>
+
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
